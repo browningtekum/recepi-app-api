@@ -37,5 +37,3 @@ class ModelTests(TestCase):
         return user
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_staff)
-        
-    
